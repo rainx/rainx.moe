@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="./images/rainx-moe-avatar.png" as="image" />
     <title>萌新二次元 RainX</title>
     <style>
       body,
@@ -19,7 +20,7 @@
 
       .avatar-image {
         max-height: 30%;
-        width: fit-content;
+        width: auto;
         margin: auto;
         border-radius: 50%;
         border: 10px solid #ccc;
@@ -36,7 +37,7 @@
       @media screen and (orientation: portrait) {
         .avatar-image {
           max-height: 40%;
-          width: fit-content;
+          width: auto;
         }
 
         .welcome-text {
