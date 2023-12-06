@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>萌新二次元 RainX</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #f0f0f0;
+      }
+
+      .avatar-image {
+        max-height: 30%;
+        width: fit-content;
+        margin: auto;
+        border-radius: 50%;
+        border: 10px solid #ccc;
+      }
+
+      .welcome-text {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 15%;
+        padding-left: 2em;
+        padding-right: 2em;
+      }
+
+      @media screen and (orientation: portrait) {
+        .avatar-image {
+          max-height: 40%;
+          width: fit-content;
+        }
+
+        .welcome-text {
+          font-size: 1em;
+        }
+      }
+    </style>
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <img
+      src="./images/rainx-moe-avatar.png"
+      alt="RainX Avatar"
+      class="avatar-image"
+    />
+    <div class="welcome-text">
+      你好，我是 <a href="https://www.rainx.cc">RainX</a>，我是一个萌新二次元
+    </div>
+  </body>
+</html>
